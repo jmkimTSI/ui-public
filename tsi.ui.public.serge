@@ -7,7 +7,7 @@ sync
         {
             # (STRING) Absolute path to local folder where local checkout will be stored.
             local_path              /d/git/public/ui-public
-            remote_path             https://jmkimTSI:i18NTeamRulz!@github.com/jmkimTSI/ui-public
+            remote_path             https://github.com/jmkimTSI/ui-public.git
 
             # (BOOLEAN) [OPTIONAL] should the newly generated
             # files be added to the remote repository automatically?
