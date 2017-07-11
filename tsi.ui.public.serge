@@ -1,0 +1,49 @@
+sync
+{
+    vcs
+    {
+        plugin                      git
+        data
+        {
+            # (STRING) Absolute path to local folder where local checkout will be stored.
+            local_path              %ENV:SERGE_DATA_DIR%/public
+            remote_path             https://jmkimTSI:i18NTeamRulz!@github.com/jmkimTSI/ui-public
+
+            # (BOOLEAN) [OPTIONAL] should the newly generated
+            # files be added to the remote repository automatically?
+            # (YES or NO, defaults to NO)
+            add_unversioned         NO
+
+            # (STRING) [OPTIONAL] Commit message
+            # Default: 'Automatic commit of updated project files'
+            commit_message          Automatic commit of updated project files
+
+            # (STRING) public committer name
+            name                    L10N Robot
+
+            # (STRING) committer's email address
+            email                   jmkimTSI@gmail.com
+        }
+    }
+}
+
+jobs {
+    {
+        id tsi.ui.public
+        name UI.Public
+        active YES
+        debug YES
+        source_language en
+        destination_languages de es fr ja ko pt-br zh-cn cs
+        source_dir %ENV:SERGE_DATA_DIR%/public/webapp/public/locales
+        source_match public_en-US_strings\.json$
+        parser 
+        {
+            plugin parse_js
+        }
+        db_source DBI:SQLite:dbname=./tsi_ui_public.db3
+        db_namespace tsi.ui.public
+        ts_file_path %ENV:SERGE_DATA_DIR%/ts/tsi.ui.public/public_%LOCALE:FULL%_strings.po
+        output_file_path  %ENV:SERGE_DATA_DIR%/public/webapp/public/locales/public_%CULTURE%_strings.json
+    }
+}
