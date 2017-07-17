@@ -25,6 +25,15 @@ sync
             email                   jmkimTSI@gmail.com
         }
     }
+    ts
+    {
+        plugin pootle
+        data
+        {
+            manage_py_path /opt/bitnami/apps/pootle/bin/pootle
+            project_id project1
+        }
+    }
 }
 
 jobs {
@@ -43,7 +52,7 @@ jobs {
         }
         db_source DBI:SQLite:dbname=../tsi_ui_public.db3
         db_namespace tsi.ui.public
-        ts_file_path /d/git/public/ui-public/ts/public_%LOCALE:FULL%_strings.po
+        ts_file_path /opt/bitnami/apps/pootle/lib/pootle/translations/tsi-ui-public/%LOCALE%/public_%LOCALE:FULL%_strings.po
         # org value: %ENV:SERGE_DATA_DIR%/ts/tsi.ui.public/public_%LOCALE:FULL%_strings.po
         output_file_path /d/git/public/ui-public/output/public_%CULTURE%_strings.json
         # org value: %ENV:SERGE_DATA_DIR%/public/webapp/public/locales/public_%CULTURE%_strings.json
