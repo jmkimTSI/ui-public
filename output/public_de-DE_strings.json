@@ -1,5 +1,4 @@
 ﻿{
-  "NEW_START": "New 1st string"
   "ACTIVITY_FEED_LOGGED_OUT_CREATE_ACCOUNT_LINK_DESCRIPTION": "<a class='link--account-signup' href='#'>Erstellen Sie ein Konto</a>, um Autoren zu folgen, die täglich Neues zu Daten veröffentlichen. Der neue Aktivitäten-Feed von Tableau Public hält Sie auf dem Laufenden, indem er alle kürzlich veröffentlichten Datenvisualisierungen anzeigt, die von den Autoren stammen, denen Sie folgen.",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_INSTRUCTIONS": "Verfügbar für Windows und Mac",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_PROMPT": "Laden Sie die App jetzt herunter, um eigene Datenvisualisierungen zu erstellen.",
@@ -266,7 +265,4 @@
   "WORKBOOK_COUNT_LABEL_CAPITALIZED": "{COUNT,plural,one{Visualisierung}other{Visualisierungen}}",
   "WORKBOOK_PERMALINK_LABEL": "Ursprünglich veröffentlicht:",
   "WORKBOOK_VIEWS_COUNT_LABEL": "{COUNT,plural,one{Ansicht}other{Ansichten}}"
-  "NEW_END": "New ending strings"
-  "NEW_END_02": "New ending strings 02"
-  "NEW_END_03": "New ending strings 03"
 }
