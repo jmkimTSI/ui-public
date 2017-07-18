@@ -1,4 +1,5 @@
 ﻿{
+  "NEW_START": "New 1st string"
   "ACTIVITY_FEED_LOGGED_OUT_CREATE_ACCOUNT_LINK_DESCRIPTION": "<a class='link--account-signup' href='#'>Create an account</a> to follow authors who are creating new data stories every day. Tableau Public's new Activity feed keeps you up to date by displaying all the recently published data visualization from the authors you choose to follow.",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_INSTRUCTIONS": "Available for Windows and Mac",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_PROMPT": "Download the app now to make your own data stories.",
@@ -265,4 +266,7 @@
   "WORKBOOK_COUNT_LABEL_CAPITALIZED": "{COUNT,plural,one{Viz}other{Vizzes}}",
   "WORKBOOK_PERMALINK_LABEL": "Originally published on:",
   "WORKBOOK_VIEWS_COUNT_LABEL": "{COUNT,plural,one{view}other{views}}"
+  "NEW_END": "New ending strings"
+  "NEW_END_02": "New ending strings 02"
+  "NEW_END_03": "New ending strings 03"
 }
