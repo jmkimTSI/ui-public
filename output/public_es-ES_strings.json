@@ -1,5 +1,4 @@
 ﻿{
-  "NEW_START": "New 1st string"
   "ACTIVITY_FEED_LOGGED_OUT_CREATE_ACCOUNT_LINK_DESCRIPTION": "<a class='link--account-signup' href='#'>Cree una cuenta</a> para seguir a autores que crean nuevas historias de datos todos los días. La nueva fuente de actividades de Tableau Public le mantiene al día, ya que muestra una visualización de los datos publicados recientemente de los autores que eligió seguir.",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_INSTRUCTIONS": "Disponible para Windows y Mac",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_PROMPT": "Descargue ahora la aplicación para crear sus propias historias de datos.",
@@ -266,6 +265,4 @@
   "WORKBOOK_COUNT_LABEL_CAPITALIZED": "{COUNT,plural,one{visualización}other{visualizaciones}}",
   "WORKBOOK_PERMALINK_LABEL": "Publicado originalmente en:",
   "WORKBOOK_VIEWS_COUNT_LABEL": "{COUNT,plural,one{vista}other{vistas}}"
-  "NEW_END": "New ending strings"
-  "NEW_END_02": "New ending strings 02"
 }
