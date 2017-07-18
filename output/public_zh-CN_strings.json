@@ -1,4 +1,5 @@
 ﻿{
+  "NEW_START": "New 1st string"
   "ACTIVITY_FEED_LOGGED_OUT_CREATE_ACCOUNT_LINK_DESCRIPTION": "<a class='link--account-signup' href='#'>创建帐户</a>以关注每日创建新数据故事的作者。通过向您显示您选择关注的作者最近发布的所有数据可视化项，Tableau Public 的新活动源会让您随时掌握最新动态。",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_INSTRUCTIONS": "可用于 Windows 和 Mac",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_PROMPT": "立即下载应用程序以制作您自己的数据故事。",
@@ -265,4 +266,7 @@
   "WORKBOOK_COUNT_LABEL_CAPITALIZED": "{COUNT,plural,one{可视化项}other{可视化项}}",
   "WORKBOOK_PERMALINK_LABEL": "最初发布于:",
   "WORKBOOK_VIEWS_COUNT_LABEL": "{COUNT,plural,one{视图}other{视图}}"
+  "NEW_END": "New ending strings"
+  "NEW_END_02": "New ending strings 02"
+  "NEW_END_03": "New ending strings 03"
 }
