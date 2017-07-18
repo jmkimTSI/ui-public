@@ -31,7 +31,7 @@ sync
         data
         {
             manage_py_path /opt/bitnami/apps/pootle/bin/pootle
-            project_id project1
+            project_id tsi-ui-public
         }
     }
 }
