@@ -1,4 +1,5 @@
 ﻿{
+  "NEW_START": "새로운 첫번째 문장"
   "ACTIVITY_FEED_LOGGED_OUT_CREATE_ACCOUNT_LINK_DESCRIPTION": "매일 새로운 데이터 스토리를 만들고 있는 작성자들을 팔로우하려면 <a class='link--account-signup' href='#'>계정을 만드십시오</a>. Tableau Public의 새 작업 피드를 통해 팔로우하는 작성자의 새로 게시된 모든 데이터 비주얼리제이션을 표시할 수 있으므로 중요한 정보를 놓치지 않을 수 있습니다.",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_INSTRUCTIONS": "Windows 및 Mac에서 사용 가능",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_PROMPT": "나만의 데이터 스토리를 만들 수 있는 앱을 지금 다운로드하십시오.",
@@ -265,4 +266,6 @@
   "WORKBOOK_COUNT_LABEL_CAPITALIZED": "{COUNT,plural,one{Viz}other{Viz}}",
   "WORKBOOK_PERMALINK_LABEL": "원래 게시된 위치:",
   "WORKBOOK_VIEWS_COUNT_LABEL": "{COUNT,plural,one{뷰}other{뷰}}"
+  "NEW_END": "새로운 마지막 문장"
+  "NEW_END_02": "New ending strings 02"
 }

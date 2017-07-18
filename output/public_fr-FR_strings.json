@@ -1,4 +1,5 @@
 ﻿{
+  "NEW_START": "New 1st string"
   "ACTIVITY_FEED_LOGGED_OUT_CREATE_ACCOUNT_LINK_DESCRIPTION": "<a class='link--account-signup' href='#'>Créez un compte</a> pour suivre les auteurs qui créent chaque jour de nouvelles histoires avec des données. Le nouveau fil Activité de Tableau Public vous tient informé(e) en affichant toutes les visualisations de données récemment publiées par les auteurs que vous avez choisis.",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_INSTRUCTIONS": "Disponible pour Windows et Mac",
   "ACTIVITY_FEED_LOGGED_OUT_DOWNLOAD_APP_PROMPT": "Téléchargez l'application maintenant pour créer vos propres histoires avec des données.",
@@ -265,4 +266,6 @@
   "WORKBOOK_COUNT_LABEL_CAPITALIZED": "{COUNT,plural,one{visualisation}other{visualisations}}",
   "WORKBOOK_PERMALINK_LABEL": "Publié à l'origine sur :",
   "WORKBOOK_VIEWS_COUNT_LABEL": "{COUNT,plural,one{vue}other{vues}}"
+  "NEW_END": "New ending strings"
+  "NEW_END_02": "New ending strings 02"
 }
