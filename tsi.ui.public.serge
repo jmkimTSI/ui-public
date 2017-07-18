@@ -43,7 +43,7 @@ jobs {
         active YES
         debug YES
         source_language en
-        destination_languages de es fr ja ko pt-br zh-cn cs
+        destination_languages de es fr ja ko pt-br zh-cn
         source_dir /d/git/public/ui-public
         source_match public_en-US_strings\.json$
         parser 
